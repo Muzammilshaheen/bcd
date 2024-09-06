@@ -4,11 +4,11 @@ import Image from "next/image";
 const page = () => {
   return (
     <div>
-       <figure className="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
-  <Image className="w-24 h-24 md:w-48 md:h-auto rounded-full mx-auto" src="/001.jpg" alt="" width="384" height="512" />
-  <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
+     <figure className="bg-slate-100 rounded-xl p-8 dark:bg-slate-800">
+  <Image className="w-24 h-24 rounded-full mx-auto" src="/rehan.jpg" alt="" width="384" height="512"/>
+  <div className="pt-6 space-y-4">
     <blockquote>
-      <p className="text-lg font-medium bg-pink-400 rounded-full text-xs text-xs ml-auto">
+      <p className="text-lg font-medium">
       Muzammil Shaheen is known for his dedication and hard work in various fields,
        particularly in technology, education, or business (depending on context).
         People who succeed through hard work often demonstrate perseverance,
@@ -18,8 +18,17 @@ const page = () => {
        specific details about his work or achievements that you’re referring to?
       </p>
     </blockquote>
-    </div>
-    </figure>
+    <figcaption className="font-medium">
+      <div className="text-sky-500 dark:text-sky-400">
+        Rehan 
+      </div>
+      
+    </figcaption>
+  </div>
+</figure>
+
+
+
     </div>
   )
 }
